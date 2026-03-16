@@ -1,105 +1,89 @@
-name: Microsoft Excel Macros API
-description: A collection of APIs and resources for working with Microsoft Excel Macros, VBA automation, and Excel extensibility
-image: https://example.com/images/excel-macros-logo.png
-created: '2024'
-modified: '2024'
-specificationVersion: '0.18'
-url: https://example.com/apis.json
-apis:
-- name: Excel VBA Object Model API
-  description: Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA
-  image: https://example.com/images/vba-icon.png
-  humanUrl: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
-  baseUrl: https://api.example.com/excel/vba
-  tags:
-  - VBA
-  - Macros
-  - Automation
+aid: microsoft-excel-macros
+name: Microsoft Excel Macros
+description: >-
+  A collection of APIs and resources for working with Microsoft Excel Macros,
+  VBA automation, and Excel extensibility including the Office JavaScript API
+  and COM automation.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Excel
-  properties:
+  - Macros
+  - VBA
+  - Automation
+  - Office
+  - Microsoft
+  - Spreadsheets
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: microsoft-excel-macros:vba-object-model
+    name: Excel VBA Object Model API
+    description: >-
+      Core API for interacting with Excel objects, workbooks, worksheets,
+      ranges, and cells through VBA automation.
+    humanURL: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
+    baseURL: https://api.example.com/excel/vba
+    tags:
+      - VBA
+      - Macros
+      - Automation
+      - Excel
+    properties:
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model
+      - type: Reference
+        url: https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model
+  - aid: microsoft-excel-macros:office-javascript-api
+    name: Office JavaScript API for Excel
+    description: >-
+      Modern JavaScript API for creating Excel add-ins and automating Excel
+      through web technologies.
+    humanURL: https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview
+    baseURL: https://appsforoffice.microsoft.com/lib/1/hosted/office.js
+    tags:
+      - JavaScript
+      - Office Add-ins
+      - Excel
+      - Web API
+    properties:
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/javascript/api/excel
+      - type: Getting Started
+        url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
+  - aid: microsoft-excel-macros:com-automation
+    name: Excel COM Automation API
+    description: >-
+      Component Object Model interface for automating Excel from external
+      applications.
+    humanURL: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
+    tags:
+      - COM
+      - Automation
+      - Interop
+      - Windows
+    properties:
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel
+common:
+  - type: Portal
+    url: https://developer.microsoft.com/en-us/microsoft-365
   - type: Documentation
-    url: https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model
-  - type: Reference
-    url: https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model
-  - type: Examples
-    url: https://learn.microsoft.com/en-us/office/vba/excel/concepts/examples
-  contact:
+    url: https://learn.microsoft.com/en-us/office/dev/add-ins/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/azure/active-directory/develop/
+  - type: Status
+    url: https://status.office.com/
+  - type: Terms of Service
+    url: https://www.microsoft.com/servicesagreement
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/
   - type: Support
     url: https://support.microsoft.com/excel
-- name: Office JavaScript API for Excel
-  description: Modern JavaScript API for creating Excel add-ins and automating Excel through web technologies
-  image: https://example.com/images/office-js-icon.png
-  humanUrl: https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview
-  baseUrl: https://api.example.com/excel/js
-  tags:
-  - JavaScript
-  - Office Add-ins
-  - Excel
-  - Web API
-  properties:
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/javascript/api/excel
-  - type: OpenAPI
-    url: https://example.com/openapi/excel-js.yaml
-  - type: SDK
-    url: https://www.npmjs.com/package/@microsoft/office-js
-  - type: Examples
-    url: https://github.com/OfficeDev/Office-Add-in-samples
-  contact:
-  - type: Support
-    url: https://learn.microsoft.com/answers/tags/161/office-addins-dev
-- name: Excel Macro-Enabled File Format API
-  description: API specification for reading and writing Excel macro-enabled files (.xlsm, .xlam)
-  image: https://example.com/images/file-format-icon.png
-  humanUrl: https://learn.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/
-  baseUrl: https://api.example.com/excel/formats
-  tags:
-  - File Formats
-  - XLSM
-  - XLAM
-  - Binary
-  properties:
-  - type: Specification
-    url: https://learn.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/office/open-xml/working-with-macro-enabled-files
-- name: Excel COM Automation API
-  description: Component Object Model interface for automating Excel from external applications
-  image: https://example.com/images/com-icon.png
-  humanUrl: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
-  baseUrl: https://api.example.com/excel/com
-  tags:
-  - COM
-  - Automation
-  - Interop
-  - Windows
-  properties:
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel
-  - type: SDK
-    url: https://www.nuget.org/packages/Microsoft.Office.Interop.Excel/
-  - type: Examples
-    url: https://learn.microsoft.com/en-us/office/client-developer/excel/excel-home
-common:
-- type: Developer Portal
-  url: https://developer.microsoft.com/microsoft-365
-- type: Authentication
-  url: https://learn.microsoft.com/en-us/azure/active-directory/develop/
-- type: Status
-  url: https://status.office.com/
-- type: Terms of Service
-  url: https://www.microsoft.com/servicesagreement
-- type: Privacy Policy
-  url: https://privacy.microsoft.com/
+  - type: GitHub Organization
+    url: https://github.com/OfficeDev
 maintainers:
-- name: Microsoft Corporation
-  email: support@microsoft.com
-  url: https://www.microsoft.com
-tags:
-- Excel
-- Macros
-- VBA
-- Automation
-- Office
-- Microsoft
-- Spreadsheets
+  - FN: Kin Lane
+    email: kin@apievangelist.com
