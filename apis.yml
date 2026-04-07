@@ -7,13 +7,13 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Automation
   - Excel
   - Macros
-  - VBA
-  - Automation
-  - Office
   - Microsoft
+  - Office
   - Spreadsheets
+  - VBA
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -27,10 +27,10 @@ apis:
     humanURL: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
     baseURL: https://api.example.com/excel/vba
     tags:
-      - VBA
-      - Macros
       - Automation
       - Excel
+      - Macros
+      - VBA
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model
@@ -44,9 +44,9 @@ apis:
     humanURL: https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview
     baseURL: https://appsforoffice.microsoft.com/lib/1/hosted/office.js
     tags:
-      - JavaScript
-      - Office Add-ins
       - Excel
+      - JavaScript
+      - Office Add-Ins
       - Web API
     properties:
       - type: Documentation
@@ -60,8 +60,8 @@ apis:
       applications.
     humanURL: https://learn.microsoft.com/en-us/office/vba/api/overview/excel
     tags:
-      - COM
       - Automation
+      - COM
       - Interop
       - Windows
     properties:
