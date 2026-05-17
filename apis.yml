@@ -51,7 +51,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/javascript/api/excel
-      - type: Getting Started
+      - type: GettingStarted
         url: https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery
   - aid: microsoft-excel-macros:com-automation
     name: Excel COM Automation API
@@ -74,15 +74,15 @@ common:
     url: https://learn.microsoft.com/en-us/office/dev/add-ins/
   - type: Authentication
     url: https://learn.microsoft.com/en-us/azure/active-directory/develop/
-  - type: Status
+  - type: StatusPage
     url: https://status.office.com/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/servicesagreement
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/
   - type: Support
     url: https://support.microsoft.com/excel
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/OfficeDev
 maintainers:
   - FN: Kin Lane
