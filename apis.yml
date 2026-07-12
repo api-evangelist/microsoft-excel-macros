@@ -68,6 +68,10 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel
 common:
+  - type: VulnerabilityDisclosure
+    url: security/microsoft-excel-macros-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/microsoft-excel-macros-domain-security.yml
   - type: Portal
     url: https://developer.microsoft.com/en-us/microsoft-365
   - type: Documentation
