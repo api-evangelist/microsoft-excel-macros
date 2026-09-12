@@ -91,6 +91,8 @@ apis:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel
 common:
+  - type: Website
+    url: https://www.microsoft.com/
   - type: VulnerabilityDisclosure
     url: security/microsoft-excel-macros-vulnerability-disclosure.yml
   - type: DomainSecurity
@@ -114,3 +116,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-parent: microsoft
+x-relationship: product
