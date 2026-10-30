@@ -1,4 +1,4 @@
-# Microsoft Excel Macros (microsoft-excel-macros)
+# Microsoft Excel Macros
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,75 +66,108 @@
 
 A collection of APIs and resources for working with Microsoft Excel Macros, VBA automation, and Excel extensibility including the Office JavaScript API and COM automation.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/apis.yml)
+**Areas:** Automation · Excel · Macros · Microsoft · Office · Spreadsheets · VBA
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Microsoft Excel Macros on APIs.io
 
-## Tags:
+Everything profiled for Microsoft Excel Macros is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-excel-macros/](https://apis.io/providers/microsoft-excel-macros/)** — or go straight to one of the APIs or properties below.
 
- - Automation, Excel, Macros, Microsoft, Office, Spreadsheets, VBA
+### APIs (3)
 
-## Timestamps
+- [Excel VBA Object Model API](https://apis.io/apis/microsoft-excel-macros/vba-object-model/) — Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA automation.
+- [Office JavaScript API for Excel](https://apis.io/apis/microsoft-excel-macros/office-javascript-api/) — Modern JavaScript API for creating Excel add-ins and automating Excel through web technologies.
+- [Excel COM Automation API](https://apis.io/apis/microsoft-excel-macros/com-automation/) — Component Object Model interface for automating Excel from external applications.
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Excel VBA Object Model API
-Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA automation.
+#### Security (2)
 
-**Human URL:** [https://learn.microsoft.com/en-us/office/vba/api/overview/excel](https://learn.microsoft.com/en-us/office/vba/api/overview/excel)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Microsoft Excel Macros Domain Security](https://apis.io/security/microsoft-excel-macros/microsoft-excel-macros-domain-security/)
+- [Microsoft Excel Macros Vulnerability Disclosure](https://apis.io/security/microsoft-excel-macros/microsoft-excel-macros-vulnerability-disclosure/)
 
- - Automation, Excel, Macros, VBA
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model)
-- [Reference](https://learn.microsoft.com/en-us/office/vba/api/overview/excel/object-model)
+- [Microsoft Excel Macros Plans Pricing](https://apis.io/plans/microsoft-excel-macros/microsoft-excel-macros-plans-pricing/)
 
-### Office JavaScript API for Excel
-Modern JavaScript API for creating Excel add-ins and automating Excel through web technologies.
+#### Rate limits (1)
 
-**Human URL:** [https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
+Published request limits.
 
-#### Tags:
+- [Microsoft Excel Macros Rate Limits](https://apis.io/rate-limits/microsoft-excel-macros/microsoft-excel-macros-rate-limits/)
 
- - Excel, JavaScript, Office Add-Ins, Web API
+#### FinOps (1)
 
-#### Properties
+What the API costs to run, by operation.
 
-- [Documentation](https://learn.microsoft.com/en-us/javascript/api/excel)
-- [Getting Started](https://learn.microsoft.com/en-us/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
+- [Microsoft Excel Macros Finops](https://apis.io/finops/microsoft-excel-macros/microsoft-excel-macros-finops/)
 
-### Excel COM Automation API
-Component Object Model interface for automating Excel from external applications.
+## Where to find this API
 
-**Human URL:** [https://learn.microsoft.com/en-us/office/vba/api/overview/excel](https://learn.microsoft.com/en-us/office/vba/api/overview/excel)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags:
-
- - Automation, COM, Interop, Windows
-
-#### Properties
-
-- [Documentation](https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.excel)
-
-## Common Properties
-
-- [Portal](https://developer.microsoft.com/en-us/microsoft-365)
+- [Website](https://www.microsoft.com/)
 - [Documentation](https://learn.microsoft.com/en-us/office/dev/add-ins/)
-- [Authentication](https://learn.microsoft.com/en-us/azure/active-directory/develop/)
-- [Status](https://status.office.com/)
-- [Terms of Service](https://www.microsoft.com/servicesagreement)
-- [Privacy Policy](https://privacy.microsoft.com/)
 - [Support](https://support.microsoft.com/excel)
-- [GitHub Organization](https://github.com/OfficeDev)
+- [Terms of service](https://www.microsoft.com/servicesagreement)
+- [Privacy policy](https://privacy.microsoft.com/)
+- [GitHub](https://github.com/OfficeDev)
+- [Status](https://status.office.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 26.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 28.9 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-excel-macros/](https://apis.io/providers/microsoft-excel-macros/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Excel Macros: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-excel-macros/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
